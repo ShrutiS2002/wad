@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Mobile Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0/jquery.mobile-1.5.0.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.5.0/jquery.mobile-1.5.0.min.js"></script>
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <h1>My Mobile Website</h1>
+    </div>
+    <div data-role="content">
+      <h2>Welcome to my mobile website!</h2>
+      <p>This is a simple example of a mobile website built with jQuery Mobile.</p>
+      <ul data-role="listview" data-inset="true">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div data-role="footer">
+      <h4> 2023 My Mobile Website</h4>
+    </div>
+  </div>
+
+  <div data-role="page" id="about">
+    <div data-role="header">
+      <h1>About</h1>
+    </div>
+    <div data-role="content">
+      <h2>About Us</h2>
+      <p>This is the about page of our mobile website.</p>
+      <a href="#" data-rel="back" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">Back</a>
+    </div>
+    <div data-role="footer">
+      <h4> 2023 My Mobile Website</h4>
+    </div>
+  </div>
+
+  <div data-role="page" id="services">
+    <div data-role="header">
+      <h1>Services</h1>
+    </div>
+    <div data-role="content">
+      <h2>Our Services</h2>
+      <p>This is the services page of our mobile website.</p>
+      <a href="#" data-rel="back" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">Back</a>
+    </div>
+    <div data-role="footer">
+      <h4> 2023 My Mobile Website</h4>
+    </div>
+  </div>
+
+  <div data-role="page" id="contact">
+    <div data-role="header">
+      <h1>Contact</h1>
+    </div>
+    <div data-role="content">
+      <h2>Contact Us</h2>
+      <p>This is the contact page of our mobile website.</p>
+      <a href="#" data-rel="back" class="ui-btn ui-btn-inline ui-shadow ui-corner-all">Back</a>
+    </div>
+    <div data-role="footer">
+      <h4> 2023 My Mobile Website</h4>
+    </div>
+  </div>
+</body>
+</html>
